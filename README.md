@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/wait9yan/mihomo-profile-rules/main/convert.js
 jsDelivr：
 
 ```text
-https://cdn.jsdelivr.net/gh/wait9yan/mihomo-profile-rules/convert.js
+https://testingcf.jsdelivr.net/gh/wait9yan/mihomo-profile-rules/convert.js
 ```
 
 ## 使用方法
