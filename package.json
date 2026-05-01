@@ -1,0 +1,8 @@
+{
+	"name": "mihomo-profile-rules",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Mihomo profile JavaScript override rules based on Custom_OpenClash_Rules.",
+	"license": "MIT",
+	"type": "commonjs"
+}
