@@ -258,7 +258,7 @@ function buildProxyGroups() {
 		selectGroup(GROUPS.games, [GROUPS.direct, GROUPS.manual, GROUPS.auto, ...DEFAULT_REGION_GROUPS]),
 		selectGroup(GROUPS.steam, [GROUPS.direct, GROUPS.manual, GROUPS.auto, ...DEFAULT_REGION_GROUPS]),
 		selectGroup(GROUPS.speedtest, [GROUPS.direct, GROUPS.manual, GROUPS.auto, GROUPS.residential, ...DEFAULT_REGION_GROUPS], true),
-		selectGroup(GROUPS.final, [GROUPS.direct, GROUPS.manual, GROUPS.auto, ...DEFAULT_REGION_GROUPS], true),
+		selectGroup(GROUPS.final, [GROUPS.manual, GROUPS.auto, GROUPS.direct, ...DEFAULT_REGION_GROUPS], true),
 		selectGroup(GROUPS.nonstandardPort, [GROUPS.final, GROUPS.direct]),
 		selectGroup(GROUPS.frontProxy, [], true, FRONT_PROXY_EXCLUDE_FILTER),
 		selectGroup(GROUPS.residential, [], true, NODE_EXCLUDE_FILTER, RESIDENTIAL_NODE_FILTER),
